@@ -6,7 +6,7 @@ html{
 }
 
 *,
-*::before
+*::before,
 *::after{
 box-sizing: inherit;
 }
@@ -25,7 +25,7 @@ body{
 }
 
 img{
-  min-width: 100%;
+  max-width: 100%;
   height: auto;
 }
 
